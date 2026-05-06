@@ -9,8 +9,8 @@ import pandas as pd
 import os
 import numpy as np
 
-file_path = r"D:\ntu\114-2環境科學\classroom_usage\共同教學館電表_20240902-20260425.xls"
-output_file = r"D:\ntu\114-2環境科學\classroom_usage\data\共同_每小時平均功率.csv"
+file_path = r"D:\ntu\114-2環境科學\classroom_usage\普通教學館_合併總表.xlsx"
+output_file = r"D:\ntu\114-2環境科學\classroom_usage\output\普通_power_day.csv"
 
 
 tables = pd.read_html(file_path)
